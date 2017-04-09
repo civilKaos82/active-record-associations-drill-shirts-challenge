@@ -1,2 +1,2 @@
-class Shirt < ActiveRecord::Base
+class Shirt < ApplicationRecord
 end
