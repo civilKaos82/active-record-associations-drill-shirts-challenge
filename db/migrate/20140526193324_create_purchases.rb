@@ -4,7 +4,7 @@ class CreatePurchases < ActiveRecord::Migration[5.0]
       t.integer :purchaser_id
       t.integer :shirt_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end
