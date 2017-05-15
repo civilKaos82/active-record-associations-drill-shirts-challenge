@@ -1,10 +1,10 @@
-class CreatePurchases < ActiveRecord::Migration
+class CreatePurchases < ActiveRecord::Migration[5.0]
   def change
     create_table :purchases do |t|
       t.integer :purchaser_id
       t.integer :shirt_id
 
-      t.timestamps(null: false)
+      t.timestamps
     end
   end
 end
